@@ -9,9 +9,14 @@ header{
 
 nav{
   background-color: #afafaf;
-  display: flex;
+  display: inline-block;
   justify-content: space-around;
   padding: 10px;
+  width: 80%;
+}
+
+nav img{
+  width: 80%;
 }
 
 main{
@@ -39,4 +44,17 @@ h1{
 p{
   color: #010059;
   line-height: 1.5;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10%;
+  justify-content: baseline;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.grid img{
+  width: 100%;
 }
