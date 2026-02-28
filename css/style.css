@@ -16,7 +16,7 @@ nav{
 }
 
 nav img{
-  width: 80%;
+  width: 10%;
 }
 
 main{
@@ -48,15 +48,21 @@ p{
 
 .grid{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 10%;
   justify-content: baseline;
   align-items: center;
-  row-gap: 20px;
+  row-gap: 5px;
 }
 
 .grid img{
   width: 100%;
+}
+
+.flex{
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 a{
