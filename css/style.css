@@ -11,7 +11,7 @@ nav{
   background-color: #afafaf;
   display: inline-block;
   justify-content: space-around;
-  padding: 10px;
+  padding: 100px;
   width: 80%;
 }
 
@@ -31,8 +31,9 @@ footer{
 }
 
 li{
-  display: inline;
-  width: 100px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px 0 20px;
 }
 
 h1{
