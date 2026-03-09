@@ -85,6 +85,11 @@ div img:hover{
   transition: border-color 0.1s ease;
 }
 
+.skip-link:not(:focus) {
+  position: absolute;
+  left: -9999px;
+}
+
 .skip-link:focus {
   position: absolute;
   background: #000;
