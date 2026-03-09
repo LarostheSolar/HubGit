@@ -68,3 +68,19 @@ p{
 a{
   text-decoration: none;
 }
+
+div img{
+  border: 5px solid #000000;
+  border-radius: 10%;
+  transition: border-color 0.1s ease;
+}
+
+.skip-link:focus-visible {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #010055;
+  padding: 8px;
+  z-index: 100;
+}
